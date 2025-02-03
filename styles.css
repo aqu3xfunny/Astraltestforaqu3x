@@ -1,0 +1,137 @@
+/* General page styles */
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 50px 0 0 0; /* Prevent content from hiding under navbar */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        background-color: black;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+/* Header */
+header {
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: lightgray;
+}
+
+/* Buttons */
+.button-container {
+    margin-top: 30px;
+}
+
+.space-button {
+    display: inline-block;
+    background: rgba(0, 0, 94, 0.76);
+    color: white;
+    padding: 15px 25px;
+    margin: 15px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.space-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px lightblue;
+}
+
+/* Style for all buttons */
+button, .space-button {
+    background-color: #0a1931; /* Dark blue space theme */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px; /* Curved edges */
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5); /* Glowing effect */
+}
+
+/* Hover effect: lifts up and glows */
+button:hover, .space-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.7);
+}
+
+/* Button when clicked */
+button:active, .space-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 8px rgba(0, 123, 255, 0.4);
+}
+
+/* Style for update boxes */
+.update-box {
+    background-color: rgba(10, 25, 49, 0.9); /* Dark blue, slightly transparent */
+    color: white;
+    padding: 15px;
+    margin: 15px auto; /* Center the boxes */
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5); /* Glowing effect */
+    transition: 0.3s ease-in-out;
+    width: 60%; /* Make the boxes less wide */
+    max-width: 500px; /* Prevent them from getting too large on bigger screens */
+    text-align: center;
+}
+
+/* Update box hover effect */
+.update-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.7);
+}
+
