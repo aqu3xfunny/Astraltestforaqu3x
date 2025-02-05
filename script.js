@@ -54,6 +54,23 @@ function openRandomSite() {
             window.open(randomSite, "_blank");
         }
 
+//random button unblocker
+function openRandomSite() {
+            // List of random websites
+            const sites = [
+                "https://about-psi.vercel.app",
+                "https://unblooker-kappa.vercel.app",
+                "https://randomthing-omega.vercel.app",
+                "https://english-delta-jet.vercel.app"
+            ];
+
+            // Select a random site
+            const randomSite = sites[Math.floor(Math.random() * sites.length)];
+
+            // Open the site in a new tab
+            window.open(randomSite, "_blank");
+        }
+
 // Function to load updates from Firebase
 function loadUpdates() {
     const updatesRef = db.ref("updates");
