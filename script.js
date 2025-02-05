@@ -66,8 +66,11 @@ function openRandomSiteU() {
                 "https://wwwwwwbartol-hall-gw.simmons.edu.ooguy.com/",
                 "https://codinggithub.global.ssl.fastly.net/",
                 "https://newsforall.site/",
-                "https://ixl-by-brunys.web.app/",
+                "https://portal.hehege.vpn64.de/",
+                "https://www.apau.shaaaaaaaaaaadow.home64.de/",
+                "https://bi.edu.ooguy.com/",
                 "https://mathtutors4school.web.app/"
+                
             
             ];
 
