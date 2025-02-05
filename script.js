@@ -58,7 +58,7 @@ function openRandomSite() {
 function openRandomSiteU() {
             // List of random websites
             const sites = [
-                "https://doorframes.casaroalba.com",
+                "https://asoilkdh.global.ssl.fastly.net/",
                 "https://pizza.frogiee.one/",
                 "https://schoologymathhelp.web.app/",
                 "https://classroom84.global.ssl.fastly.net/",
