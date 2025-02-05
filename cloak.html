@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive-like Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f3f4;
+        }
+        .header {
+            background-color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header img {
+            height: 40px;
+        }
+        .header .options {
+            display: flex;
+            align-items: center;
+        }
+        .header .options div {
+            margin-left: 20px;
+            color: #5f6368;
+            cursor: pointer;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #ffffff;
+            position: fixed;
+            top: 60px;
+            bottom: 0;
+            padding: 10px;
+            box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar div {
+            margin-bottom: 10px;
+            color: #202124;
+            cursor: pointer;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        document.title = "about:blank";
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img src="https://ssl.gstatic.com/docs/doclist/images/drive_logo.png" alt="Google Drive">
+        <div class="options">
+            <div>My Drive</div>
+            <div>Shared with me</div>
+            <div>Recent</div>
+            <div>Trash</div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div>My Drive</div>
+        <div>Shared with me</div>
+        <div>Recent</div>
+        <div>Trash</div>
+    </div>
+    <div class="main-content">
+        <h1>Welcome to Your Drive</h1>
+        <p>This is a simple example of a Google Drive-like interface. Customize it to fit your needs.</p>
+    </div>
+</body>
+</html>
