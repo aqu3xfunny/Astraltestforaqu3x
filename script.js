@@ -41,9 +41,9 @@ function checkPassword() {
 function openRandomSite() {
             // List of random websites
             const sites = [
-                "https://selenite.cc",
-                "https://youtube.com",
-                "https://docs.google.com"
+                "https://about-psi.vercel.app",
+                "https://unblooker-kappa.vercel.app",
+                "https://english-delta-jet.vercel.app"
             ];
 
             // Select a random site
