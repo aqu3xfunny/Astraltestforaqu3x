@@ -55,13 +55,20 @@ function openRandomSite() {
         }
 
 //random button unblocker
-function openRandomSite() {
+function openRandomSiteU() {
             // List of random websites
             const sites = [
-                "https://about-psi.vercel.app",
-                "https://unblooker-kappa.vercel.app",
-                "https://randomthing-omega.vercel.app",
-                "https://english-delta-jet.vercel.app"
+                "https://doorframes.casaroalba.com",
+                "https://pizza.frogiee.one/",
+                "https://schoologymathhelp.web.app/",
+                "https://classroom84.global.ssl.fastly.net/",
+                "https://loungef2x.global.ssl.fastly.net/",
+                "https://wwwwwwbartol-hall-gw.simmons.edu.ooguy.com/",
+                "https://codinggithub.global.ssl.fastly.net/",
+                "https://newsforall.site/",
+                "https://ixl-by-brunys.web.app/",
+                "https://mathtutors4school.web.app/"
+            
             ];
 
             // Select a random site
