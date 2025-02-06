@@ -95,7 +95,7 @@ function openRandomSiteU() {
             doc.write(`
                 <html>
                     <head>
-                        <title>Hidden Site</title>
+                        <title>Blank</title>
                         <script>
                             window.onload = function() {
                                 let iframe = document.createElement('iframe');
