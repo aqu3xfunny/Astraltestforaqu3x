@@ -82,6 +82,44 @@ function openRandomSiteU() {
             window.open(randomSite, "_blank");
         }
 
+ document.getElementById("cloakButton").addEventListener("click", function () {
+            let win = window.open("about:blank"); // Open a new blank page
+            if (!win) {
+                alert("Pop-up blocked! Please allow pop-ups for this to work.");
+                return;
+            }
+
+            let doc = win.document;
+
+            doc.open();
+            doc.write(`
+                <html>
+                    <head>
+                        <title>Hidden Site</title>
+                        <script>
+                            window.onload = function() {
+                                let iframe = document.createElement('iframe');
+                                iframe.style.position = 'fixed';
+                                iframe.style.top = '0';
+                                iframe.style.left = '0';
+                                iframe.style.width = '100vw';
+                                iframe.style.height = '100vh';
+                                iframe.style.border = 'none';
+                                iframe.src = '${window.location.href}';
+                                document.body.appendChild(iframe);
+                            };
+                        </script>
+                    </head>
+                    <body style="margin:0; overflow:hidden;">
+                    </body>
+                </html>
+            `);
+            doc.close();
+
+            // Attempt to close the original page (may be blocked by browser security settings)
+            setTimeout(() => window.close(), 1000);
+        });
+
 // Function to load updates from Firebase
 function loadUpdates() {
     const updatesRef = db.ref("updates");
