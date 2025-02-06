@@ -70,6 +70,7 @@ function openRandomSiteU() {
                 "https://www.apau.shaaaaaaaaaaadow.home64.de/",
                 "https://charming-capybara-53c2c8.netlify.app/1.8",
                 "https://hamburger.netlify.app/",
+                "https://https://soto-inc.global.ssl.fastly.net/",
                 "https://bi.edu.ooguy.com/",
                 "https://mathtutors4school.web.app/"
                 
