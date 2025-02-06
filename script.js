@@ -71,6 +71,7 @@ function openRandomSiteU() {
                 "https://charming-capybara-53c2c8.netlify.app/1.8",
                 "https://hamburger.netlify.app/",
                 "https://https://soto-inc.global.ssl.fastly.net/",
+                "https://gointospace.app/",
                 "https://bi.edu.ooguy.com/",
                 "https://mathtutors4school.web.app/"
                 
