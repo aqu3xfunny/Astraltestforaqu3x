@@ -68,7 +68,7 @@ function openRandomSiteU() {
                 "https://newsforall.site/",
                 "https://portal.hehege.vpn64.de/",
                 "https://www.apau.shaaaaaaaaaaadow.home64.de/",
-                "https://charming-capybara-53c2c8.netlify.app/1.8",
+                //"https://charming-capybara-53c2c8.netlify.app/1.8",
                 "https://hamburger.netlify.app/",
                 "https://https://soto-inc.global.ssl.fastly.net/",
                 "https://gointospace.app/",
