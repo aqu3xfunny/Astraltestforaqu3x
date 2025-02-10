@@ -73,6 +73,7 @@ function openRandomSiteU() {
                 "https://https://soto-inc.global.ssl.fastly.net/",
                 "https://gointospace.app/",
                 "https://bi.edu.ooguy.com/",
+                "https://infinitetutoring.com.au/",
                 "https://mathtutors4school.web.app/"
                 
             
