@@ -44,6 +44,7 @@ function openRandomSite() {
                 "https://about-psi.vercel.app",
                 "https://unblooker-kappa.vercel.app",
                 "https://randomthing-omega.vercel.app",
+                "https://squralcooking.vercel.app/",
                 "https://english-delta-jet.vercel.app"
             ];
 
