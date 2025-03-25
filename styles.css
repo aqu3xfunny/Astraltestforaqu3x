@@ -12,6 +12,18 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
+@font-face {
+    font-family: 'Spacey';
+    src: url('fonts/Sterion-BLLld.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.spacey-text {
+    font-family: 'Spacey', sans-serif;
+}
+
+
 /* Fade-in effect */
 @keyframes fadeIn {
     from {
