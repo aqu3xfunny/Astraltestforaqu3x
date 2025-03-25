@@ -23,6 +23,12 @@ body {
     font-family: 'Spacey', sans-serif;
 }
 
+.bottom-left-text {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: purple;
+        }
 
 /* Fade-in effect */
 @keyframes fadeIn {
