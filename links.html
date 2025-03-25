@@ -1,128 +1,71 @@
-function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Copied: " + text);
-    }).catch(err => {
-        console.error("Could not copy text: ", err);
-    });
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="servers.html">Servers</a></li>
+            <li><a href="ealgernews.html">Ealger News</a></li>
+            <li><a href="unblockernews.html">Unblocker News</a></li>
+            <li><a href="updates.html">Updates</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <h1>Links</h1>
+
+    <button onclick="openRandomSiteU()">Random Unblockers</button>
+
+    <h2>Selenite Links</h2>
+    
+    <button onclick="openRandomSite()">Random Selenite</button>
+    
+    <div class="button-container">
+        <a href="https://iatestuff-app.netlify.app/" class="space-button">selenite</a>
+        <a href="https://gobblethemup.vercel.app" class="space-button">interstellar</a>
+        <a href="https://www.fghjhgfvbhbgfvbhgfvbgvb.shadowshark.ipv64.net/" class="space-button">shadow</a>
+        <a href="https://ethereal123.netlify.app" class="space-button">eaglercraft</a>
+    </div>
+
+    <div class="button-container">
+    <a href="https://coolman123456.netlify.app/" class="space-button">Eagler 1.12 its here bois</a>   
 
 
-function checkPassword() {
-    const password = prompt("Enter password:");
-    if (password === "thisissigmachat") {
-        const newText = prompt("Enter your update:");
-        if (newText) {
-            const updatesDiv = document.getElementById("updates");
-            const newUpdate = document.createElement("div");
-            newUpdate.classList.add("update-box");
-            newUpdate.innerHTML = `<h3>Update from The TALW</h3><p>${newText}</p>`;
-            updatesDiv.appendChild(newUpdate);
-        }
-    } else {
-        alert("Incorrect password!");
-    }
-}
+    <h2>Client links and other stuff</h2>
 
+    <div class="button-container">
+        <a href="https://coolthing3.netlify.app/" class="space-button">Astra Client</a>
+        <a href="https://resent.netlify.app/" class="space-button">Resent</a>
+        <a href="https://coolthingepic.netlify.app/" class="space-button">Kone</a>
+        <a href="https://byebyeshane.netlify.app/" class="space-button">Eaglercraft clients</a>
+    </div>
+  
 
-function openRandomSite() {
-            // List of random websites
-            const sites = [
-                "https://newfest.netlify.app",
-                "https://pleasework-app.netlify.app",
-                "https://backontrack-app.netlify.app",
-                "https://comingback-app.netlify.app"
-            ];
+    <h2>Random Websites to cure Boredom</h2>
 
-            
-            const randomSite = sites[Math.floor(Math.random() * sites.length)];
+    <div class="button-container">
+        <a href="http://www.staggeringbeauty.com/" class="space-button">crazy worm (Eplisey warning)</a>
+        <a href="https://jacksonpollock.org/" class="space-button">Ink</a>
+        <a href="https://www.worldguessr.com/" class="space-button">Geogusser</a>
+        <a href="https://michaelxing.com/games/" class="space-button">Xing</a>
+    </div>
 
-            
-            window.open(randomSite, "_blank");
-        }
+     <div class="button-container">
+    <a href="https://charming-capybara-53c2c8.netlify.app/" class="space-button">Eaglercrack x</a>
+     
 
+    
 
-function openRandomSiteU() {
-            
-            const sites = [
-                "https://asoilkdh.global.ssl.fastly.net/",
-                "https://pizza.frogiee.one/",
-                "https://schoologymathhelp.web.app/",
-                "https://classroom84.global.ssl.fastly.net/",
-                "https://loungef2x.global.ssl.fastly.net/",
-                "https://gobblethemup.vercel.app",
-                "https://asoilkdh.global.ssl.fastly.net/",
-                "https://newsforall.site/",
-                "https://portal.hehege.vpn64.de/",
-                "https://www.apau.shaaaaaaaaaaadow.home64.de/",
-                "https://charming-capybara-53c2c8.netlify.app/1.8",
-                "https://hamburger.netlify.app/",
-                "https://https://soto-inc.global.ssl.fastly.net/",
-                "https://gointospace.app/",
-                "https://bi.edu.ooguy.com/",
-                "https://infinitetutoring.com.au/",
-                "https://mathtutors4school.web.app/"
-                
-            
-            ];
+         
 
-            
-            const randomSite = sites[Math.floor(Math.random() * sites.length)];
-
-            
-            window.open(randomSite, "_blank");
-        }
-
- document.getElementById("cloakButton").addEventListener("click", function () {
-            let win = window.open("about:blank"); 
-            if (!win) {
-                alert("Pop-up blocked! Please allow pop-ups for this to work.");
-                return;
-            }
-
-            let doc = win.document;
-
-            doc.open();
-            doc.write(`
-                <html>
-                    <head>
-                        <title>Blank</title>
-                        <script>
-                            window.onload = function() {
-                                let iframe = document.createElement('iframe');
-                                iframe.style.position = 'fixed';
-                                iframe.style.top = '0';
-                                iframe.style.left = '0';
-                                iframe.style.width = '100vw';
-                                iframe.style.height = '100vh';
-                                iframe.style.border = 'none';
-                                iframe.src = 'https://astral-main.pages.dev';
-                                document.body.appendChild(iframe);
-                            };
-                        </script>
-                    </head>
-                    <body style="margin:0; overflow:hidden;">
-                    </body>
-                </html>
-            `);
-            doc.close();
-
-
-            setTimeout(() => window.close(), 1000);
-        });
-
-
-function loadUpdates() {
-    const updatesRef = db.ref("updates");
-    updatesRef.on("value", (snapshot) => {
-        const updatesDiv = document.getElementById("updates");
-        updatesDiv.innerHTML = ""; // Clear old updates before loading new ones
-
-        snapshot.forEach((childSnapshot) => {
-            const updateData = childSnapshot.val();
-            const updateBox = document.createElement("div");
-            updateBox.classList.add("update-box"); // Apply the curved rectangle class
-            updateBox.innerHTML = `<h3>Update from The TALW</h3><p>${updateData.text}</p>`;
-            updatesDiv.appendChild(updateBox);
-        });
-    });
-}
+</body>
+</html>
