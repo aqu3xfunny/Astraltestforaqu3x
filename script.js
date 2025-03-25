@@ -41,10 +41,10 @@ function checkPassword() {
 function openRandomSite() {
             // List of random websites
             const sites = [
-                "https://about-psi.vercel.app",
-                "https://unblooker-kappa.vercel.app",
-                "https://randomthing-omega.vercel.app",
-                "https://squralcooking.vercel.app/",
+                "https://wearesoback.netlify.app",
+                "https://comingback-app.netlify.app",
+                "https://newfest.netlify.app",
+                "https://backontrack-app.netlify.app",
                 "https://english-delta-jet.vercel.app"
             ];
 
@@ -142,3 +142,4 @@ function loadUpdates() {
     });
 }
 
+ 
