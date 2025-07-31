@@ -143,11 +143,14 @@ function loadUpdates() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  fetch("navbar.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("navbar-container").innerHTML = data;
-    });
-});
+// script.js
+fetch("navbar.html")
+  .then(response => response.text())
+  .then(html => {
+    document.getElementById("navbar-container").innerHTML = html;
+  })
+  .catch(error => {
+    console.error("Error loading navbar:", error);
+  });
+
 
