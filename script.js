@@ -143,25 +143,14 @@ function loadUpdates() {
     });
 }
 
-// Load navbar.html into #navbar-container
+// script.js
 document.addEventListener("DOMContentLoaded", () => {
   fetch("navbar.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("navbar-container").innerHTML = data;
-
-      // Attach dropdown behavior after content is loaded
-      const toggle = document.getElementById("more-toggle");
-      const dropdown = document.getElementById("dropdown-menu");
-
-      if (toggle && dropdown) {
-        toggle.addEventListener("click", (e) => {
-          e.preventDefault();
-          dropdown.classList.toggle("show");
-          toggle.innerHTML = dropdown.classList.contains("show") ? "More ▴" : "More ▾";
-        });
-      }
-    });
+    })
+    .catch(error => console.error("Failed to load navbar:", error));
 });
 
 
