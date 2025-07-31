@@ -143,14 +143,25 @@ function loadUpdates() {
     });
 }
 
-// script.js
-fetch("navbar.html")
-  .then(response => response.text())
-  .then(html => {
-    document.getElementById("navbar-container").innerHTML = html;
-  })
-  .catch(error => {
-    console.error("Error loading navbar:", error);
-  });
+// Load navbar.html into #navbar-container
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("navbar.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-container").innerHTML = data;
+
+      // Attach dropdown behavior after content is loaded
+      const toggle = document.getElementById("more-toggle");
+      const dropdown = document.getElementById("dropdown-menu");
+
+      if (toggle && dropdown) {
+        toggle.addEventListener("click", (e) => {
+          e.preventDefault();
+          dropdown.classList.toggle("show");
+          toggle.innerHTML = dropdown.classList.contains("show") ? "More ▴" : "More ▾";
+        });
+      }
+    });
+});
 
 
