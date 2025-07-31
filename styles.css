@@ -77,55 +77,6 @@ nav a:hover {
     color: lightblue;
 }
 
-  /* Add dropdown styles if not already in styles.css */
-    nav ul {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      background-color: #333;
-      padding: 10px;
-      margin: 0;
-    }
-
-    nav ul li {
-      position: relative;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 15px;
-      display: block;
-    }
-
-    nav a:hover {
-      background-color: #555;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      background-color: #444;
-      min-width: 160px;
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      padding: 10px 15px;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    .arrow {
-      font-size: 10px;
-      margin-left: 5px;
-    }
-
 /* Header */
 header {
     margin-top: 50px;
@@ -207,3 +158,39 @@ button:active, .space-button:active {
     margin-top: 50px; /* Adjust the value to move it lower */
 }
 
+/* Dropdown styles for "More" in nav */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.95);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 123, 255, 0.3);
+    z-index: 1001;
+    text-align: left;
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #0a1931;
+    color: lightblue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 5px;
+}
