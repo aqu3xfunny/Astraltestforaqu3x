@@ -30,63 +30,35 @@
   </ul>
 </nav>
 
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Basic Eaglercraft 1.12</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #121212;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .preview-container {
-      position: relative;
-      width: 90%;
-      max-width: 1000px;
-      height: 600px;
-      margin-top: 40px;
-      border: 2px solid #444;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    }
-
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-
-    .controls {
-      margin-top: 20px;
-      display: flex;
-      gap: 10px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background: #1e88e5;
-      border: none;
-      border-radius: 4px;
-      color: white;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background 0.3s;
-    }
-
-    button:hover {
-      background: #1565c0;
-    }
-  </style>
+  <title>Proxy-Embedded Site Viewer</title>
 </head>
 <body>
+  <h2>View a Website via Proxy</h2>
+  <input type="text" id="siteInput" placeholder="Enter site URL (e.g. https://example.com)" />
+  <button onclick="loadSite()">Load Site</button>
+
+  <iframe id="myIframe" width="100%" height="600" style="border:1px solid #ccc;"></iframe>
+
+  <script>
+    const proxyBase = 'https://your-proxy.com/?url='; // Replace with your actual proxy
+
+    function loadSite() {
+      const siteUrl = document.getElementById('siteInput').value.trim();
+      if (!siteUrl.startsWith('http')) {
+        alert('Please enter a full URL starting with http or https');
+        return;
+      }
+      const iframe = document.getElementById('myIframe');
+      iframe.src = proxyBase + encodeURIComponent(siteUrl);
+    }
+  </script>
+</body>
+</html>
+
+
 
   <h1>Eaglercraft 1.12</h1>
 
