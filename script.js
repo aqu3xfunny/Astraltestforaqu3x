@@ -41,11 +41,11 @@ function checkPassword() {
 function openRandomSite() {
             // List of random websites
             const sites = [
-                "https://wearesoback.netlify.app",
-                "https://comingback-app.netlify.app",
-                "https://newfest.netlify.app",
-                "https://backontrack-app.netlify.app",
-                "https://english-delta-jet.vercel.app"
+                "https://shaneplaysgames.netlify.app/",
+                "https://bruhman12345.netlify.app/",
+                "https://shotbroup.netlify.app/",
+                "https://mytolietexploded.netlify.app/",
+                "https://tatatashaur.netlify.app"
             ];
 
             // Select a random site
@@ -152,5 +152,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(error => console.error("Failed to load navbar:", error));
 });
+
 
 
