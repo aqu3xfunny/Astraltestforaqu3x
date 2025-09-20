@@ -44,8 +44,10 @@ function openRandomSite() {
                 "https://shaneplaysgames.netlify.app/",
                 "https://bruhman12345.netlify.app/",
                 "https://shotbroup.netlify.app/",
-                "https://mytolietexploded.netlify.app/",
-                "https://tatatashaur.netlify.app"
+                "https://stopstealinglosers.netlify.app/",
+                "https://tatatashaur.netlify.app",
+                "https://imreallycool.netlify.app/",
+                "https://ilovegamewebsite.netlify.app"
             ];
 
             // Select a random site
@@ -152,6 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(error => console.error("Failed to load navbar:", error));
 });
+
 
 
 
