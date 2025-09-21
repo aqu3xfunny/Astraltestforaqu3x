@@ -37,60 +37,52 @@ function checkPassword() {
     }
 }
 
-//Function to load random selenite links
 function openRandomSite() {
-            // List of random websites
-            const sites = [
-                "https://shaneplaysgames.netlify.app/",
-                "https://bruhman12345.netlify.app/",
-                "https://shotbroup.netlify.app/",
-                "https://stopstealinglosers.netlify.app/",
-                "https://tatatashaur.netlify.app",
-                "https://imreallycool.netlify.app/",
-                "https://ilovegamewebsite.netlify.app",
-                "https://500-cigarettes.netlify.app"
-               
-"
-            ];
+    // List of random websites
+    const sites = [
+        "https://shaneplaysgames.netlify.app/",
+        "https://bruhman12345.netlify.app/",
+        "https://shotbroup.netlify.app/",
+        "https://stopstealinglosers.netlify.app/",
+        "https://tatatashaur.netlify.app",
+        "https://imreallycool.netlify.app/",
+        "https://ilovegamewebsite.netlify.app",
+        "https://500-cigarettes.netlify.app"
+    ];
 
-            // Select a random site
-            const randomSite = sites[Math.floor(Math.random() * sites.length)];
+    // Open a random site from the list
+    const randomIndex = Math.floor(Math.random() * sites.length);
+    window.open(sites[randomIndex], "_blank");
+}
 
-            // Open the site in a new tab
-            window.open(randomSite, "_blank");
-        }
 
-//random button unblocker
 function openRandomSiteU() {
-            // List of random websites
-            const sites = [
-                "https://asoilkdh.global.ssl.fastly.net/",
-                "https://pizza.frogiee.one/",
-                "https://schoologymathhelp.web.app/",
-                "https://classroom84.global.ssl.fastly.net/",
-                "https://loungef2x.global.ssl.fastly.net/",
-                "https://gobblethemup.vercel.app",
-                "https://asoilkdh.global.ssl.fastly.net/",
-                "https://newsforall.site/",
-                "https://portal.hehege.vpn64.de/",
-                "https://www.apau.shaaaaaaaaaaadow.home64.de/",
-                //"https://charming-capybara-53c2c8.netlify.app/1.8",
-                "https://hamburger.netlify.app/",
-                "https://https://soto-inc.global.ssl.fastly.net/",
-                "https://gointospace.app/",
-                "https://bi.edu.ooguy.com/",
-                "https://infinitetutoring.com.au/",
-                "https://mathtutors4school.web.app/"
-                
-            
-            ];
+    // List of random websites
+    const sites = [
+        "https://asoilkdh.global.ssl.fastly.net/",
+        "https://pizza.frogiee.one/",
+        "https://schoologymathhelp.web.app/",
+        "https://classroom84.global.ssl.fastly.net/",
+        "https://loungef2x.global.ssl.fastly.net/",
+        "https://gobblethemup.vercel.app",
+        "https://asoilkdh.global.ssl.fastly.net/", // intentional duplicate?
+        "https://newsforall.site/",
+        "https://portal.hehege.vpn64.de/",
+        "https://www.apau.shaaaaaaaaaaadow.home64.de/",
+        "https://hamburger.netlify.app/",
+        "https://soto-inc.global.ssl.fastly.net/",
+        "https://gointospace.app/",
+        "https://bi.edu.ooguy.com/",
+        "https://infinitetutoring.com.au/",
+        "https://mathtutors4school.web.app/"
+        // "https://charming-capybara-53c2c8.netlify.app/1.8" // Uncomment if needed
+    ];
 
-            // Select a random site
-            const randomSite = sites[Math.floor(Math.random() * sites.length)];
+    // Open a random site from the list
+    const randomIndex = Math.floor(Math.random() * sites.length);
+    window.open(sites[randomIndex], "_blank");
+}
 
-            // Open the site in a new tab
-            window.open(randomSite, "_blank");
-        }
 
  document.getElementById("cloakButton").addEventListener("click", function () {
             let win = window.open("about:blank"); // Open a new blank page
@@ -157,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(error => console.error("Failed to load navbar:", error));
 });
+
 
 
 
