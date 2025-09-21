@@ -48,9 +48,8 @@ function openRandomSite() {
                 "https://tatatashaur.netlify.app",
                 "https://imreallycool.netlify.app/",
                 "https://ilovegamewebsite.netlify.app",
-                "https://500-cigarettes.netlify.app,
-                "https://9yearsoldlowkeyfine.netlify.app
-"
+                "https://500-cigarettes.netlify.app"
+               
 "
             ];
 
@@ -158,6 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(error => console.error("Failed to load navbar:", error));
 });
+
 
 
 
