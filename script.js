@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const images = [
         "https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-scaled.jpg",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWGpyTSzKZU9hS-ptH3WJZQ0TMGDqczO0-5A&s"
+        "https://removal.ai/wp-content/uploads/2021/05/image8.png"
     ];
     
     const randomImage = images[Math.floor(Math.random() * images.length)];
@@ -149,6 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(error => console.error("Failed to load navbar:", error));
 });
+
 
 
 
