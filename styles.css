@@ -43,8 +43,8 @@ body {
 }
 
 .navbar {
-    background-color: #1431537d;
-    margin-top:0dvh;
+    background-color: #133863;
+    margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
@@ -53,8 +53,13 @@ body {
     height: 40px;
 }
 
+.navbar li {
+    display: inline;
+    margin: 15px;
+}
+
 .navbar a {
-    color: #ffffff;
+    color: #094196;
     text-align: center;
     padding: 8px 10px;
     font-size: 20px;
@@ -69,7 +74,7 @@ body {
 }
 
 .navbar p {
-    color: #ffffff;
+    color: #094196;
     text-align: center;
     font-size: 25px;
     text-decoration: none;
@@ -104,7 +109,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin: 0 15px;
+    margin: 15px;
 }
 
 nav a {
