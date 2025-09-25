@@ -45,8 +45,8 @@ body {
 .navbar {
     background-color: #2f6097dc;
     margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5vh;
+    margin-right: 5vh;
     border-radius: 10px;
     overflow:hidden;
     width: 95%;
