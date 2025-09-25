@@ -43,7 +43,7 @@ body {
 }
 
 .navbar {
-    background-color: #133863;
+    background-color: #2f6097dc;
     margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
@@ -59,7 +59,7 @@ body {
 }
 
 .navbar a {
-    color: #094196;
+    color: #a1c6fcc2;
     text-align: center;
     padding: 8px 10px;
     font-size: 20px;
@@ -74,7 +74,7 @@ body {
 }
 
 .navbar p {
-    color: #094196;
+    color: #a1c6fcc2;
     text-align: center;
     font-size: 25px;
     text-decoration: none;
