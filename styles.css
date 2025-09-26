@@ -42,52 +42,39 @@ body {
     }
 }
 
-.navbar {
-    background-color: #2f6097dc;
-    margin-top: 0%;
-    margin-left: 5vh;
-    margin-right: 5vh;
-    border-radius: 10px;
-    overflow:hidden;
-    width: 95%;
-    height: 40px;
+nav {
+    background-color: #9900ff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar li {
-    display: inline;
-    margin: 10px;
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.navbar a {
-    color: #a1c6fcc2;
-    text-align: center;
-    padding: 8px 9px;
-    font-size: 18px;
+nav li {
+height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
     text-decoration: none;
-    vertical-align: baseline;
-    border-radius: 10px;
-    font-family:'Courier New', Courier, monospace
+    display: flex;
+    align-items: center;
+    color: white;
 }
 
-.navbar a:hover{
-    transform: scale(1.05);
+nav a:hover {
+   background-color: 5c0099;
 }
 
-.navbar p {
-    color: #a1c6fcc2;
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-    vertical-align: baseline;
-    border-radius: 10px;
-    padding-bottom: 40%;
-    font-weight: bold;
-    margin-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Courier New', Courier, monospace;
+nav li:first-child {
+margin-right: auto;
 }
-
 
 /* Navigation bar old */
 nav {
@@ -279,4 +266,5 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
