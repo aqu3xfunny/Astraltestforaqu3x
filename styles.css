@@ -76,41 +76,6 @@ nav li:first-child {
 margin-right: auto;
 }
 
-/* Navigation bar old */
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.85);
-    padding: 10px 0;
-    z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    margin: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: lightblue;
-}
-*/
 
 /* Header */
 header {
@@ -266,5 +231,6 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
