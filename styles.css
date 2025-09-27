@@ -62,7 +62,7 @@ nav ul {
 }
 
 nav li {
-height: 30px;
+height: 35px;
 }
 
 nav a{
@@ -237,6 +237,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
