@@ -85,7 +85,7 @@ margin-right: auto;
 
 /* Header */
 header {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .subtitle {
@@ -237,6 +237,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
