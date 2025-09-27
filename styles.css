@@ -48,8 +48,8 @@ nav {
     margin-top: 0%;
     padding: 0;
     display: flex;
-    padding-top: 0;
-
+margin-top: 0%
+    
 }
 
 nav ul {
@@ -238,6 +238,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
