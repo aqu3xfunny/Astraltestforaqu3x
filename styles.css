@@ -47,7 +47,8 @@ nav {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     margin-top: 0%;
     padding: 0;
-    display: flex;    
+    display: flex;
+    position: relative;
 }
 
 nav ul {
@@ -237,6 +238,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
