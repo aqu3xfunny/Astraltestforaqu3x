@@ -1,6 +1,6 @@
 /* General page styles */
 
-body html {
+body {
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
@@ -237,6 +237,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
