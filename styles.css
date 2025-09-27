@@ -59,6 +59,7 @@ nav ul {
     flex-basis: 100%;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 0%;
 }
 
 nav li {
@@ -237,6 +238,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
