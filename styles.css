@@ -45,8 +45,8 @@ body {
 nav {
     background-color: #9900ff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-basis: 100%
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
@@ -234,6 +234,7 @@ nav ul li .dropdown-content li a:hover {
 nav ul li .dropdown-content.show {
   display: block;
 }
+
 
 
 
