@@ -244,6 +244,13 @@ nav ul li.dropdown:hover .dropdown-content {
 }
 
 
+nav ul li .dropdown-content {
+  background: rgba(153, 0, 255, 0.8); /* semi-transparent purple */
+  backdrop-filter: blur(6px); /* gives the glassy look */
+  border-radius: 10px; /* smooth edges */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
 
 
 
