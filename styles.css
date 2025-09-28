@@ -1,51 +1,49 @@
-/* General page styles */
+/* General Page Styles */
 
 body {
-    font-family: Arial, sans-serif;
-    color: white;
-    margin: 0;
-    padding: 0; 
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    animation: fadeIn 1s ease-in-out;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: fadeIn 1s ease-in-out;
 }
 
 @font-face {
-    font-family: 'Spacey';
-    src: url('Sterion-BLLld.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Spacey';
+  src: url('Sterion-BLLld.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .spacey-text {
-    font-family: 'Spacey', sans-serif;
+  font-family: 'Spacey', sans-serif;
 }
 
 .bottom-left-text {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            color: purple;
-            font-weight: bold;
-        }
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: purple;
+  font-weight: bold;
+}
 
 /* Fade-in effect */
 
-
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        background-color: black;
-    }
-    to {
-        opacity: 1;
-    }
-}  
+  from {
+    opacity: 0;
+    background-color: black;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-    
-/* Navbar gradient (reusable)*/
+/* Navbar Gradient (this is a reusable variable for anyone who doesnt know) */
 
 :root {
   --navbar-gradient: linear-gradient(90deg, #2e003e, #120a8f, #000000);
@@ -56,6 +54,8 @@ body {
     rgba(0, 0, 0, 0.92)
   );
 }
+
+/* Navbar Styles */
 
 nav {
   background: var(--navbar-gradient);
@@ -97,24 +97,25 @@ nav li:first-child {
   margin-right: auto;
 }
 
-
 /* Header */
+
 header {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .subtitle {
-    font-size: 14px;
-    color: lightgray;
+  font-size: 14px;
+  color: lightgray;
 }
 
+/* Buttons */
 
 .button-container {
   margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px; 
+  gap: 15px;
 }
 
 button,
@@ -137,49 +138,42 @@ button:hover,
   box-shadow: 0px 6px 20px rgba(0, 123, 255, 0.7);
 }
 
-  
 button:active,
 .space-button:active {
   transform: translateY(2px);
   box-shadow: 0px 2px 8px rgba(0, 123, 255, 0.4);
 }
-                               
 
-/* Style for update boxes */
+/* Update Boxes */
+
 .update-box {
-    background-color: rgba(10, 25, 49, 0.9); /* Dark blue, slightly transparent */
-    color: white;
-    padding: 15px;
-    margin: 15px auto; /* Center the boxes */
-    border-radius: 15px; /* Curved edges */
-    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5); /* Glowing effect */
-    transition: 0.3s ease-in-out;
-    width: 60%; /* Make the boxes less wide */
-    max-width: 500px; /* Prevent them from getting too large on bigger screens */
-    text-align: center;
+  background-color: rgba(10, 25, 49, 0.9);
+  color: white;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5);
+  transition: 0.3s ease-in-out;
+  width: 60%;
+  max-width: 500px;
+  text-align: center;
 }
 
-/* Update box hover effect */
 .update-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.7);
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.7);
 }
 
 #cloakButton {
-    margin-top: 50px; /* Adjust the value to move it lower */
+  margin-top: 50px;
 }
 
-/* Dropdown styles for "More" in nav */
-
-
+/* Dropdown */
 
 .arrow {
-    font-size: 12px;
-    margin-left: 5px;
+  font-size: 12px;
+  margin-left: 5px;
 }
-
-/* Dropdown Styles */
-
 
 nav ul li.dropdown {
   position: relative;
@@ -221,7 +215,7 @@ nav ul li .dropdown-content a {
 nav ul li .dropdown-content a:hover {
   background-color: rgba(92, 0, 153, 0.8);
   transform: scale(1.03);
-  box-shadow: 0 0 10px rgba(255,255,255,0.12);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.12);
   color: lightblue;
 }
 
@@ -230,6 +224,19 @@ nav ul li.dropdown:hover .dropdown-content {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+/* Bottom Link Section */
+
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 30px auto;
+  max-width: 90%;
+}
+
 
 
 
